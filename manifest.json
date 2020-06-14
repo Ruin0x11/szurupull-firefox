@@ -1,0 +1,30 @@
+{
+  "description": "szurupull extension for Firefox",
+  "manifest_version": 2,
+  "name": "szurupull-firefox",
+  "version": "1.0",
+  "homepage_url": "https://github.com/Ruin0x11/szurupull-firefox",
+  "icons": {
+    "32": "icons/icon-32.png",
+    "48": "icons/icon-48.png"
+  },
+
+  "permissions": [
+    "downloads",
+    "downloads.open",
+    "webRequest",
+    "webRequestBlocking",
+    "<all_urls>",
+    "tabs"
+  ],
+
+  "browser_action": {
+    "browser_style": true,
+    "default_icon": {
+      "32": "icons/icon-32.png",
+      "48": "icons/icon-48.png"
+    },
+    "default_title": "szurupull",
+    "default_popup": "popup/szurupull.html"
+  }
+}
