@@ -8,6 +8,11 @@
     "32": "icons/icon-32.png",
     "48": "icons/icon-48.png"
   },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "szurupull-firefox@nori.moe"
+    }
+  },
 
   "permissions": [
     "downloads",
