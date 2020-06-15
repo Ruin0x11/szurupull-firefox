@@ -14,10 +14,18 @@
     "downloads.open",
     "webRequest",
     "webRequestBlocking",
+    "webNavigation",
     "<all_urls>",
-    "tabs"
+    "tabs",
+    "storage"
   ],
 
+  "options_ui": {
+    "page": "options/options.html"
+  },
+  "background": {
+    "scripts": ["background/background.js"]
+  },
   "browser_action": {
     "browser_style": true,
     "default_icon": {
